@@ -8,6 +8,9 @@ target 'DynamicLinksTest' do
   # Pods for DynamicLinksTest
 
   pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  
   
   target 'DynamicLinksTestTests' do
     inherit! :search_paths
